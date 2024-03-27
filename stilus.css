@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gomb-tarolo {
+  height: 480px;
+  width: 480px;
+}
+
+button {
+  border: none;
+  border-radius: 60px;
+}
+
+.felkapcsolt {
+  background-color: yellow;
+}
+
+.lekapcsolt {
+  background-color: white;
+}
