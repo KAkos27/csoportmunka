@@ -1,10 +1,24 @@
-function lampaKattint(event, i) {
-  if (event.target.className === "felkapcsolt") {
-    $(event.target).removeClass("felkapcsolt");
-    $(event.target).addClass("lekapcsolt");
+const atszinez = (lampa, lampaClassNev) => {
+  debugger;
+  if (lampaClassNev === "felkapcsolt") {
+    lampa.removeClass("felkapcsolt");
+    lampa.addClass("lekapcsolt");
   } else {
-    $(event.target).removeClass("lekapcsolt");
-    $(event.target).addClass("felkapcsolt");
+    lampa.removeClass("lekapcsolt");
+    lampa.addClass("felkapcsolt");
+  }
+};
+
+function lampaKattint(event, i, gombok) {
+  const lampa = $(event.target);
+  const lampaClassNev = event.target.className;
+  atszinez(lampa, lampaClassNev);
+
+  if (i === 4) {
+    atszinez(gombok.eq(i - 3), gombok.eq(i - 3).className);
+    atszinez(gombok.eq(i + 3), gombok.eq(i + 3).className);
+    atszinez(gombok.eq(i - 1), gombok.eq(i - 1).className);
+    atszinez(gombok.eq(i + 1), gombok.eq(i + 1).className);
   }
 }
 
