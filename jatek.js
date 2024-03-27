@@ -6,8 +6,13 @@ import htmlosszerak from "./htmlosszerak.js";
 function jatek() {
   htmlosszerak();
   classRandomizalas(classNevek);
-  console.log(classNevek);
   classNevAdas(classNevek);
+  const gombok = $("button");
+  gombok.forEach((gomb) => {
+    gomb.on("click", (event) => {
+      lampakattint(event);
+    });
+  });
 }
 
 export default jatek;
