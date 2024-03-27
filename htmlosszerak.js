@@ -1,7 +1,9 @@
 function htmlosszerak() {
+  debugger;
   const tarolo = $(".gomb-tarolo");
-  for (let index = 0; index < 9; index++) {
-    tarolo.html += "<button></button>";
+  tarolo.html("<button></button>");
+  for (let index = 0; index < 8; index++) {
+    tarolo.append("<button></button>");
   }
 }
 
