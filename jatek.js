@@ -7,7 +7,7 @@ function jatek() {
   htmlosszerak();
   classRandomizalas(classNevek);
   console.log(classNevek);
-  //classNevAdas(classNevek);
+  classNevAdas(classNevek);
 }
 
 export default jatek;

@@ -1,9 +1,11 @@
 function classNevAdas(classNevek) {
   const gombok = $("button");
+  console.log(gombok);
 
-  gombok.forEach((gomb, i) => {
-    gomb.addClass(classNevek[i]);
-  });
+  for (let i = 0; i < gombok.length; i++) {
+    const classNev = classNevek[i];
+    gombok.eq(i).addClass(classNev);
+  }
 }
 
 export default classNevAdas;
