@@ -1,8 +1,11 @@
 import classNevAdas from "./classNevAdas.js";
 import classNevek from "./classNevek.js";
+import classRandomizalas from "./classRandomizalas.js";
 
 function jatek() {
-  classNevAdas(classNevek);
+  classRandomizalas(classNevek);
+  console.log(classNevek);
+  //classNevAdas(classNevek);
 }
 
 export default jatek;
