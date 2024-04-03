@@ -8,6 +8,10 @@ const atszinez = (lampa, lampaClassNev) => {
     lampa.addClass("felkapcsolt");
   }
 };
+
+
+
+
 function lampaKattint(event, i, gombok) {
   const lampa = $(event.target);
   const lampaClassNev = event.target.className;
@@ -21,6 +25,7 @@ function lampaKattint(event, i, gombok) {
   }
   */
 }
+
 
 export default lampaKattint;
 
