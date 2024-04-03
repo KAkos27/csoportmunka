@@ -12,7 +12,7 @@ function ujjatek(){
   const gomb=$(".ujjatek");
   let txt="";
   for(let index=0;index < 1; index++){
-  txt+=<button></button>
+  txt+=`<button></button>`
 
   }
   gomb.html(txt)
