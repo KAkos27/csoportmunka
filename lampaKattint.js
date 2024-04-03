@@ -12,12 +12,12 @@ const atszinez = (lampa, lampaClassNev) => {
 
 
 
-/*
+
 function lampaKattint(event, i, gombok) {
   const lampa = $(event.target);
   const lampaClassNev = event.target.className;
   atszinez(lampa, lampaClassNev);
-
+/*
   if(i%3==0){
     if gombok.
   }
@@ -33,4 +33,6 @@ function lampaKattint(event, i, gombok) {
 }
 
 
+
 export default lampaKattint;
+
