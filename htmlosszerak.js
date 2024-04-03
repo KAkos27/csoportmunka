@@ -8,4 +8,16 @@ function htmlosszerak() {
   tarolo.html(txt)
 }
 
+function ujjatek(){
+  const gomb=$(".ujjatek");
+  let txt="";
+  for(let index=0;index < 1; index++){
+  txt+=<button></button>
+
+  }
+  gomb.html(txt)
+
+
+}
+
 export default htmlosszerak;
