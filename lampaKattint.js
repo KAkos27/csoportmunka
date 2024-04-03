@@ -9,6 +9,9 @@ const atszinez = (lampa, lampaClassNev) => {
   }
 };
 
+
+
+/*
 function lampaKattint(event, i, gombok) {
   const lampa = $(event.target);
   const lampaClassNev = event.target.className;
@@ -21,5 +24,6 @@ function lampaKattint(event, i, gombok) {
     atszinez(gombok.eq(i + 1), gombok.eq(i + 1).className);
   }
 }
-
+kukába dobtuk 
+*/
 export default lampaKattint;
