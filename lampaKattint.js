@@ -1,5 +1,5 @@
 const atszinez = (lampa, lampaClassNev) => {
-  debugger;
+
   if (lampaClassNev === "felkapcsolt") {
     lampa.removeClass("felkapcsolt");
     lampa.addClass("lekapcsolt");
@@ -12,10 +12,17 @@ const atszinez = (lampa, lampaClassNev) => {
 
 
 
+/*
 function lampaKattint(event, i, gombok) {
   const lampa = $(event.target);
   const lampaClassNev = event.target.className;
   atszinez(lampa, lampaClassNev);
+
+  if(i%3==0){
+    if gombok.
+  }
+*/
+
 
   if (i === 4) {
     atszinez(gombok.eq(i - 3), gombok.eq(i - 3).className);
